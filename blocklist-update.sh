@@ -10,10 +10,11 @@ TO_DOWNLOAD[0]="http://lists.blocklist.de/lists/ftp.txt"
 #TO_DOWNLOAD[2]="http://lists.blocklist.de/lists/ssh.txt"
 TO_DOWNLOAD[1]="http://lists.blocklist.de/lists/bruteforcelogin.txt"
 TO_DOWNLOAD[2]="http://lists.blocklist.de/lists/apache.txt"
+TO_DOWNLOAD[2]="https://raw.githubusercontent.com/xtreamjava/blocklist/main/banned.txt"
 
 # Other settings; Edit if necesarry
 CHAINNAME="blocklist-de"
-ACTION="REJECT" # Can be DROP
+ACTION="DROP" # Can be DROP
 PRINT_REPORT=1
 IPTABLES_PATH="/sbin/iptables"
 
